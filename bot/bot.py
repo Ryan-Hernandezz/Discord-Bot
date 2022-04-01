@@ -67,7 +67,7 @@ async def yt(ctx, *, search):
 @bot.event
 async def new_member(member):
     x = member.server.default_channel
-    await bot.send_message(x, '{} is in this hoe!'.format(member.name))
+    await bot.send_message(x, '{} is in this!'.format(member.name))
 
 @bot.event
 async def on_ready():
